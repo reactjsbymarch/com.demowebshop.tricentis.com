@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-28T00:55:01 IST" name="Suite" finished-at="2023-10-28T00:55:20 IST" duration-ms="19084">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_AccountRegistrationTest.test_account_registration()[pri:0, instance:com.demowebshop.tricentis.com.testCases.TC_001_AccountRegistrationTest@2034b64c]" name="test_account_registration" class="com.demowebshop.tricentis.com.testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_002_LoginTest.test_Login()[pri:0, instance:com.demowebshop.tricentis.com.testCases.TC_002_LoginTest@53045c6c]" name="test_Login" class="com.demowebshop.tricentis.com.testCases.TC_002_LoginTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_002_LoginTest.test_Login()[pri:0, instance:com.demowebshop.tricentis.com.testCases.TC_002_LoginTest@53045c6c]" name="test_Login" class="com.demowebshop.tricentis.com.testCases.TC_002_LoginTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_001_AccountRegistrationTest.test_account_registration()[pri:0, instance:com.demowebshop.tricentis.com.testCases.TC_001_AccountRegistrationTest@2034b64c]" name="test_account_registration" class="com.demowebshop.tricentis.com.testCases.TC_001_AccountRegistrationTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-10-28T00:55:01 IST" name="DemoWebShopTest" finished-at="2023-10-28T00:55:20 IST" duration-ms="19084">
+      <class name="com.demowebshop.tricentis.com.testCases.TC_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.demowebshop.tricentis.com.testCases.TC_001_AccountRegistrationTest@2034b64c]" started-at="2023-10-28T00:55:02 IST" name="setUp" finished-at="2023-10-28T00:55:09 IST" duration-ms="7613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_account_registration()[pri:0, instance:com.demowebshop.tricentis.com.testCases.TC_001_AccountRegistrationTest@2034b64c]" started-at="2023-10-28T00:55:09 IST" name="test_account_registration" finished-at="2023-10-28T00:55:13 IST" duration-ms="3597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demowebshop.tricentis.com.testCases.TC_001_AccountRegistrationTest@2034b64c]" started-at="2023-10-28T00:55:13 IST" name="tearDown" finished-at="2023-10-28T00:55:14 IST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demowebshop.tricentis.com.testCases.TC_001_AccountRegistrationTest -->
+      <class name="com.demowebshop.tricentis.com.testCases.TC_002_LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.demowebshop.tricentis.com.testCases.TC_002_LoginTest@53045c6c]" started-at="2023-10-28T00:55:14 IST" name="setUp" finished-at="2023-10-28T00:55:18 IST" duration-ms="4655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_Login()[pri:0, instance:com.demowebshop.tricentis.com.testCases.TC_002_LoginTest@53045c6c]" started-at="2023-10-28T00:55:18 IST" name="test_Login" finished-at="2023-10-28T00:55:20 IST" duration-ms="1503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demowebshop.tricentis.com.testCases.TC_002_LoginTest@53045c6c]" started-at="2023-10-28T00:55:20 IST" name="tearDown" finished-at="2023-10-28T00:55:20 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demowebshop.tricentis.com.testCases.TC_002_LoginTest -->
+    </test> <!-- DemoWebShopTest -->
+  </suite> <!-- Suite -->
+</testng-results>
